@@ -72,3 +72,6 @@
       #floating-chat-window { width: calc(100vw - 2rem); }
       #floating-chat-container { right: 0.75rem; }
     }
+
+/* Embedded simulator occupies only the simulation tab. */
+#thermolab-simulator { display:block; width:100%; min-width:0; }
